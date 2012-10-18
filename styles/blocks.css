@@ -1,0 +1,67 @@
+/**
+ * Special css for the home rotator
+ */
+#block-views-rotator-block_1 .views-field-body {
+  position: relative;
+  float: right;
+  top: -300px;
+  height: 250px;
+  margin-right: 20px;
+}
+#block-views-rotator-block_1 .views-field-body a {
+  color: #fff;
+}
+#block-views-rotator-block_1 .views-slideshow-controls-bottom {
+  bottom: 35px;
+  float: right;
+  margin-right: 20px;
+  position: relative;
+  z-index: 5;
+}
+#block-views-rotator-block_1 .views-slideshow-controls-bottom a {
+  color: #fff;
+  padding: 3px 6px;
+  text-decoration: none;
+  background: #4f4e4e;
+  -moz-border-radius: 3px;
+  -webkit-border-radius:3px;
+  border-radius:3px;
+}
+#block-views-rotator-block_1 .views-slideshow-controls-bottom div.activeSlide a{
+  background: #cf710c;
+}
+.views_slideshow_singleframe_teaser_section {
+  height: 300px;
+  overflow: hidden;
+}
+/**
+ * Float node images left
+ */
+.field-field-blog-image,
+.field-field-product-image,
+.field-field-service-image,
+.field-field-news-image {
+  float: left;
+  margin: 10px 10px 10px 0;
+  position: relative;
+}
+/**
+ * sitewide main views row
+ */
+ #main-content .views-row {
+   border: 5px solid #fff;
+   -moz-box-shadow:0 0 5px #ccc;
+   -webkit-box-shadow:0 0 5px #ccc;
+   box-shadow:0 0 5px #ccc;
+   margin-bottom: 10px;
+   padding: 20px;
+ }
+ #main-content ul .views-row {
+   border: none;
+   -moz-box-shadow: none;
+   -webkit-box-shadow: none;
+   box-shadow: none;
+   margin-bottom: 0;
+   padding: 0;
+ }
+
